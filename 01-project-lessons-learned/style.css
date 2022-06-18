@@ -1,0 +1,180 @@
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+}
+
+p {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 1;
+  text-align: justify;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul li {
+  color: rgb(253, 251, 251, 0.8);
+  display: inline-block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+section ol li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+section ul li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+nav ul li:hover {
+  color: white;
+  font-weight: 900;
+}
+
+#cabecalho {
+  background-color: rgb(255, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#minha_foto {
+  border-radius: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  width: 25%;
+}
+
+#titulo {
+  color: rgb(0, 0, 0, 0.9);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  line-height: 1;
+  text-align: center;
+}
+
+#licoes_aprendidas {
+  background-color: red;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  color: white;
+  display: block;
+  height: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  width: 250px;
+}
+
+#licoes_a_aprender {
+  background-color: black;
+  border: 1.5px solid red;
+  border-radius: 10px;
+  color: white;
+  display: block;
+  height: 320px;
+  margin: 80px auto;
+  width: 250px;
+}
+
+.lado-esquerdo {
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: inline;
+  font-size: 0;
+  float: left;
+  margin-left: 4%;
+  padding: 50px;
+  width: 45%;
+}
+
+.lado-direito {
+  background-color: black;
+  border-radius: 35%;
+  box-sizing: border-box;
+  display: inline;
+  font-size: 0;
+  float: right;
+  margin-right: 4%;
+  padding: 50px;
+  width: 45%;
+}
+
+.lado-direito p {
+  color: red;
+}
+
+table {
+  background-color: red;
+  border: 2px solid red;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 700px;
+  padding: px;
+  width: 500px;
+}
+
+table caption {
+  border: 2px solid red;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  letter-spacing: 5px;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+table tr {
+  border: 1px solid white;
+}
+
+table tr th {
+  border: 2px solid white;
+  font-weight: 900;
+  padding: 23px;
+}
+
+table tr td {
+  border: 2px solid white;
+  color: white;
+  font-weight: 900;
+  padding: 23px;
+  text-align: center;
+}
+
+#rodape {
+  background-color: rgb(0, 0, 0, 0.9);
+  color: white;
+  height: 50px;
+  margin: 0;
+  padding-top: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.link {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.link a {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
