@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(74 , 173 , 64);
+}
+
+main {
+  background-color: white;
+  width: 80%;
+  margin-top: 4%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 60px 80px;
+  border-radius: 25px;
+}
+
+header {
+  margin-bottom: 5%;
+}
+
+header h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 2;
+}
+
+header p {
+  font-family: Arial, sans-serif;
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: 100;
+  color: rgb(202 , 197 , 197);
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid rgb(206 , 216 , 219);
+  padding: 3px;
+  padding-left: 10px;
+  margin-right: 13px;
+  margin-bottom: 25px;
+  color: rgb(24 , 90 , 128);
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid rgb(46 , 147 , 187);
+  box-shadow: 0 0 10px rgb(113 , 158 , 206);
+}
+
+::placeholder {
+  color: rgb(228 , 228 , 228);
+}
+
+.selected {
+  background-color: gray;
+  font-size: large;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+button {
+  border: none;
+  background-color: rgba(59 , 178 , 247 , 0.9);
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: rgba(255 , 255 , 255 , 0.8);
+  font-size: 0.9em;
+  margin-right: 10px;
+  min-width: 40px;
+  font-weight: 900;
+}
+
+button:focus {
+  outline: 0 auto -webkit-focus-ring-color;
+  outline-offset: 0;
+  box-shadow: 1px 1px 1px 1px rgb(136 , 136 , 136);
+}
+
+button:hover {
+  background-color: rgb(59 , 178 , 247);
+  color: white;
+}
+
+#remover-selecionado , #apaga-tudo {
+  background-color: rgba(185 , 34 , 34 , 0.9);
+}
+
+#remover-selecionado:hover , #apaga-tudo:hover {
+  background-color: rgb(185 , 34 , 34);
+}
+
+#mover-cima , #mover-baixo {
+  background-color: rgba(255 , 102 , 0 , 0.9);
+}
+
+#mover-cima:hover , #mover-baixo:hover {
+  background-color: rgb(255 , 102 , 0);
+}
+
+#salvar-tarefas {
+  background-color: rgba(3 , 122 , 3 , 0.9);
+}
+
+#salvar-tarefas:hover {
+  background-color: rgb(3 , 122 , 3);
+}
+
+#task {
+  margin-left: 30px;
+  font-family: Verdana, sans-serif;
+  line-height: 1.6;
+  width: 85%;
+}
+
+#task:hover {
+  background-color: rgb(221 , 220 , 220);
+  color: rgb(240 , 24 , 193);
+}
+
+.tarefa {
+  margin-left: 30px;
+  font-family: Verdana, sans-serif;
+  line-height: 1.6;
+  width: 85%;
+}
+
+.tarefa:hover {
+  background-color: rgb(221 , 220 , 220);
+  color: rgb(240 , 24 , 193);
+}
+
+#miscellaneousButtons {
+  margin-top: 30px;
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  font-size: large;
+  font-weight: 900;
+}
