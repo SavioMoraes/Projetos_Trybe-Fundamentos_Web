@@ -1,0 +1,19 @@
+{
+  "name": "project-zoo-functions",
+  "version": "1.0.0",
+  "description": "Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js"
+  },
+  "author": "Sávio Moraes",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.16.0",
+    "jest": "^28.1.0"
+  }
+}
