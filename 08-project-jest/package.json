@@ -1,0 +1,19 @@
+{
+  "name": "08-project-jest",
+  "version": "1.0.0",
+  "description": "Projeto de testes com Jest",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json ."
+  },
+  "author": "Sávio Moraes",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.16.0",
+    "jest": "^28.1.0"
+  }
+}
