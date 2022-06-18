@@ -1,0 +1,1 @@
+Repositório contendo os projetos que desenvolvi durante o módulo 01 - Fundamentos da Web - do curso de Desenvolvedor Web Full Stack na Trybe :rocket:
